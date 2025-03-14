@@ -20,8 +20,8 @@ vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
 -- better scrolling
-vim.opt.scrolloff = 8
-vim.opt.sidescrolloff = 8
+vim.opt.scrolloff = 4
+vim.opt.sidescrolloff = 4
 
 -- reduce update time for responsiveness
 vim.opt.updatetime = 250
