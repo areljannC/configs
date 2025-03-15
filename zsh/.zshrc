@@ -13,7 +13,7 @@ setopt HIST_IGNORE_ALL_DUPS # ignore duplicate entries
 setopt HIST_REDUCE_BLANKS   # remove unnecessary whitespace
 
 # plugins
-plugins=(git zsh-vi-mode zsh-autosuggestions zsh-syntax-highlighting fzf)
+plugins=(git fzf zsh-autosuggestions zsh-vi-mode zsh-syntax-highlighting)
 
 # run ohmyzsh script
 source $ZSH/oh-my-zsh.sh
