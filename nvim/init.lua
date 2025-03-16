@@ -38,6 +38,11 @@ vim.opt.autoread = true
 -- highlight the current cursor line
 vim.opt.cursorline = true
 
+-- set tab width
+vim.opt.expandtab = false
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+
 -- display whitespace characters
 vim.opt.list = true
 vim.opt.listchars = { tab = ">> ", space = " ", trail = "." }
