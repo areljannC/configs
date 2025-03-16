@@ -8,6 +8,9 @@ vim.opt.termguicolors = true
 -- enable smart indenting
 vim.opt.smartindent = true
 
+-- disable wordwrap
+vim.opt.wrap = false
+
 -- enable mouse support
 vim.opt.mouse = "a"
 
